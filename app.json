@@ -1,0 +1,10 @@
+{
+  "name": "Reaggle!",
+  "description": "Reaggle! A toggl-like time tracker in React and Redux",
+  "repository": "https://github.com/palazzem/reaggle",
+  "logo": "https://s3-eu-west-1.amazonaws.com/evonove-drive/public/jenkins/evonove-logo.png",
+  "scripts": {
+    "postdeploy": "python backend/manage.py migrate"
+  },
+  "keywords": ["Django", "react"]
+}
